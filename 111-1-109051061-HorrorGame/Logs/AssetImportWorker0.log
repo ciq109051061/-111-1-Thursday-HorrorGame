@@ -15,7 +15,7 @@ E:/Unity procjet/-111-1-Thursday-HorrorGame/111-1-109051061-HorrorGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-4434
+1356
 Successfully changed project path to: E:/Unity procjet/-111-1-Thursday-HorrorGame/111-1-109051061-HorrorGame
 E:/Unity procjet/-111-1-Thursday-HorrorGame/111-1-109051061-HorrorGame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ E:/Unity procjet/-111-1-Thursday-HorrorGame/111-1-109051061-HorrorGame
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 97.33 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 122.34 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.6f1 (7da38d85baf6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
@@ -63,95 +63,95 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56488
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56880
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007149 seconds.
+Registered in 0.018092 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 90.74 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 92.05 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.655 seconds
+- Completed reload, in  0.797 seconds
 Domain Reload Profiling:
-	ReloadAssembly (656ms)
-		BeginReloadAssembly (79ms)
+	ReloadAssembly (798ms)
+		BeginReloadAssembly (108ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (466ms)
-			LoadAssemblies (77ms)
+		EndReloadAssembly (568ms)
+			LoadAssemblies (108ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (104ms)
+			SetupTypeCache (124ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (282ms)
+			SetupLoadedEditorAssemblies (342ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (53ms)
+				InitializePlatformSupportModulesInManaged (57ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (91ms)
+				RefreshPlugins (92ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (93ms)
-				ProcessInitializeOnLoadMethodAttributes (44ms)
+				ProcessInitializeOnLoadAttributes (128ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005180 seconds.
+Registered in 0.005243 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\Unity procjet\-111-1-Thursday-HorrorGame\111-1-109051061-HorrorGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\Unity procjet\-111-1-Thursday-HorrorGame\111-1-109051061-HorrorGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 96.34 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 109.19 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.362 seconds
+- Completed reload, in  1.529 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1363ms)
-		BeginReloadAssembly (232ms)
+	ReloadAssembly (1530ms)
+		BeginReloadAssembly (264ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (125ms)
-		EndReloadAssembly (1014ms)
-			LoadAssemblies (113ms)
+			CreateAndSetChildDomain (145ms)
+		EndReloadAssembly (1107ms)
+			LoadAssemblies (162ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (288ms)
+			SetupTypeCache (254ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (532ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (580ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (17ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (96ms)
-				BeforeProcessingInitializeOnLoad (97ms)
-				ProcessInitializeOnLoadAttributes (290ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				RefreshPlugins (109ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (315ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3879 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 44 unused Assets / (182.6 KB). Loaded Objects now: 4352.
-Memory consumption went from 153.9 MB to 153.8 MB.
-Total: 4.629300 ms (FindLiveObjects: 0.588600 ms CreateObjectMapping: 0.322700 ms MarkObjects: 3.453100 ms  DeleteObjects: 0.263700 ms)
+Unloading 44 unused Assets / (182.0 KB). Loaded Objects now: 4353.
+Memory consumption went from 154.1 MB to 153.9 MB.
+Total: 3.523900 ms (FindLiveObjects: 0.305500 ms CreateObjectMapping: 0.234500 ms MarkObjects: 2.872200 ms  DeleteObjects: 0.110500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,58 +166,242 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 5515.207033 seconds.
-  path: Assets/Cemetery Kit V1.25/Prefabs/Gates, Fences/Editor_Built/Fence_Gate_Group_1B.prefab
-  artifactKey: Guid(c999aa571a98f164e8ddf817166e0ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cemetery Kit V1.25/Prefabs/Gates, Fences/Editor_Built/Fence_Gate_Group_1B.prefab using Guid(c999aa571a98f164e8ddf817166e0ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f60f36281be9e62d717d9f463be823') in 0.200734 seconds 
+  Time since last request: 61412.446512 seconds.
+  path: Assets/StarterAssets/Readme.asset
+  artifactKey: Guid(4181bfe715a83e843b7538d750dc57cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Readme.asset using Guid(4181bfe715a83e843b7538d750dc57cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6bdf3094d9f18a02bc95f4850d98435') in 0.048014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 100.154488 seconds.
+  path: Assets/Cemetery Kit V1.25/Prefabs/Graves/Coffin Closed Standing.prefab
+  artifactKey: Guid(1425a144be5623044892c855f09608b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cemetery Kit V1.25/Prefabs/Graves/Coffin Closed Standing.prefab using Guid(1425a144be5623044892c855f09608b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a92ccac78c28726099638986532acb67') in 0.165742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Cemetery Kit V1.25/Prefabs/Graves/Grave 6.prefab
+  artifactKey: Guid(bc8f458a8e9aa7b4fbb5e4614d8703ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cemetery Kit V1.25/Prefabs/Graves/Grave 6.prefab using Guid(bc8f458a8e9aa7b4fbb5e4614d8703ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd76a1209dd034589fa74f0a6270af51f') in 0.041897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Cemetery Kit V1.25/Prefabs/Graves/Grave 2.prefab
+  artifactKey: Guid(7d1be65c6a06bb845973590823c54265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cemetery Kit V1.25/Prefabs/Graves/Grave 2.prefab using Guid(7d1be65c6a06bb845973590823c54265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2484db544edd2258e73d10daaf3c4cf5') in 0.025940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Cemetery Kit V1.25/Prefabs/Graves/Grave 3.prefab
+  artifactKey: Guid(ed9b24e4403c71343af37cb17bdcd664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cemetery Kit V1.25/Prefabs/Graves/Grave 3.prefab using Guid(ed9b24e4403c71343af37cb17bdcd664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62818dd8e491fa9704e2317cf63d977b') in 0.033266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.258638 seconds.
+  path: Assets/Cemetery Kit V1.25/Prefabs/Graves/Gravestones/Cross 2.prefab
+  artifactKey: Guid(181271adea13eb04dae904124a377bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cemetery Kit V1.25/Prefabs/Graves/Gravestones/Cross 2.prefab using Guid(181271adea13eb04dae904124a377bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d381aab13b4cbdcde4eb6a40289237b') in 0.047592 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/Cemetery Kit V1.25/Prefabs/Gates, Fences/Editor_Built
-  artifactKey: Guid(e03aca3df499b104b94a93b1cdfc81ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cemetery Kit V1.25/Prefabs/Gates, Fences/Editor_Built using Guid(e03aca3df499b104b94a93b1cdfc81ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'decb32a4213520245c9c5c715397a474') in 0.005909 seconds 
+  path: Assets/Cemetery Kit V1.25/Prefabs/Graves/Gravestones/Grave 2.prefab
+  artifactKey: Guid(8caa69417bdc9144784f58aca1026009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cemetery Kit V1.25/Prefabs/Graves/Gravestones/Grave 2.prefab using Guid(8caa69417bdc9144784f58aca1026009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c247370f8dac7b4eea2e66698d72e8fb') in 0.034472 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Cemetery Kit V1.25/Prefabs/Gates, Fences/Editor_Built/Fence_Gate_Group_1A.prefab
-  artifactKey: Guid(8ae2b0a1cc2dab24c8b87359c498a282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cemetery Kit V1.25/Prefabs/Gates, Fences/Editor_Built/Fence_Gate_Group_1A.prefab using Guid(8ae2b0a1cc2dab24c8b87359c498a282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1892c39020f0dca75420d0b2ecca229d') in 0.051484 seconds 
+  Time since last request: 0.000046 seconds.
+  path: Assets/Cemetery Kit V1.25/Prefabs/Graves/Gravestones/Grave 5.prefab
+  artifactKey: Guid(de666a5140830944b9d50758204e4e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cemetery Kit V1.25/Prefabs/Graves/Gravestones/Grave 5.prefab using Guid(de666a5140830944b9d50758204e4e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90cccf6b2aa1cbd62e9882ec580f12a8') in 0.041371 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 46.888973 seconds.
-  path: Assets/Cemetery Kit V1.25/Prefabs/Graves/Gravestones/Cross 2.prefab
-  artifactKey: Guid(181271adea13eb04dae904124a377bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cemetery Kit V1.25/Prefabs/Graves/Gravestones/Cross 2.prefab using Guid(181271adea13eb04dae904124a377bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b251672b2e3d8ae2bb2a5d76ee8dfe') in 0.045645 seconds 
+  Time since last request: 0.000043 seconds.
+  path: Assets/Cemetery Kit V1.25/Prefabs/Graves/Gravestones/Grave 3.prefab
+  artifactKey: Guid(3ef1d861abde8fb4f82f99238f56ba14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cemetery Kit V1.25/Prefabs/Graves/Gravestones/Grave 3.prefab using Guid(3ef1d861abde8fb4f82f99238f56ba14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60da6bf2f66c91f1f7828e546bbb23ef') in 0.033535 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Cemetery Kit V1.25/Prefabs/Graves/Gravestones/Cross 4.prefab
-  artifactKey: Guid(c7a6c6a8d061e6e43857a22dbe144694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cemetery Kit V1.25/Prefabs/Graves/Gravestones/Cross 4.prefab using Guid(c7a6c6a8d061e6e43857a22dbe144694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b8b5882187c7d6a5a3216e72ad8864c') in 0.037529 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Cemetery Kit V1.25/Prefabs/Graves/Gravestones/Cross 5.prefab
-  artifactKey: Guid(836b9c3c9667c664b86e6d7c725d5ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cemetery Kit V1.25/Prefabs/Graves/Gravestones/Cross 5.prefab using Guid(836b9c3c9667c664b86e6d7c725d5ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae97817b9ccb5e9db2e72a79ab49d44c') in 0.060971 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.885580 seconds.
+  Time since last request: 0.000043 seconds.
   path: Assets/Cemetery Kit V1.25/Prefabs/Graves/Gravestones/Grave 7.prefab
   artifactKey: Guid(586c069f8f7f54b4683a59b4d019bb2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cemetery Kit V1.25/Prefabs/Graves/Gravestones/Grave 7.prefab using Guid(586c069f8f7f54b4683a59b4d019bb2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e90ffc30b0554d3386de9e39c22395c') in 0.030955 seconds 
+Start importing Assets/Cemetery Kit V1.25/Prefabs/Graves/Gravestones/Grave 7.prefab using Guid(586c069f8f7f54b4683a59b4d019bb2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb895245f42737ba346ba88830abfc63') in 0.036047 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.336430 seconds.
+  Time since last request: 0.709982 seconds.
   path: Assets/Cemetery Kit V1.25/Prefabs/Graves/Gravestones/Grave 9.prefab
   artifactKey: Guid(ad6926312d11c464fb02b4ccbda0c98f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cemetery Kit V1.25/Prefabs/Graves/Gravestones/Grave 9.prefab using Guid(ad6926312d11c464fb02b4ccbda0c98f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd11613b4a0f2b2f9a3e7414c6527c70') in 0.017850 seconds 
+Start importing Assets/Cemetery Kit V1.25/Prefabs/Graves/Gravestones/Grave 9.prefab using Guid(ad6926312d11c464fb02b4ccbda0c98f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fedcad31c3053108da490b35d357185c') in 0.019410 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.710205 seconds.
+  Time since last request: 0.502014 seconds.
   path: Assets/Cemetery Kit V1.25/Prefabs/Graves/Gravestones/Grave 11.prefab
   artifactKey: Guid(317fabc93e395d040b6fd54627471e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cemetery Kit V1.25/Prefabs/Graves/Gravestones/Grave 11.prefab using Guid(317fabc93e395d040b6fd54627471e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3f7f22f3b4bbc4b8d6cabaae74a2ffc') in 0.029014 seconds 
+Start importing Assets/Cemetery Kit V1.25/Prefabs/Graves/Gravestones/Grave 11.prefab using Guid(317fabc93e395d040b6fd54627471e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a93c219d025f043e1cfd99b8e9d84e7c') in 0.018866 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008552 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Unity procjet\-111-1-Thursday-HorrorGame\111-1-109051061-HorrorGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Unity procjet\-111-1-Thursday-HorrorGame\111-1-109051061-HorrorGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.610 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1611ms)
+		BeginReloadAssembly (177ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (1304ms)
+			LoadAssemblies (136ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (457ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (581ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (394ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3873 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (149.6 KB). Loaded Objects now: 4374.
+Memory consumption went from 158.1 MB to 158.0 MB.
+Total: 4.574400 ms (FindLiveObjects: 0.348100 ms CreateObjectMapping: 0.284000 ms MarkObjects: 3.791800 ms  DeleteObjects: 0.149100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005426 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Unity procjet\-111-1-Thursday-HorrorGame\111-1-109051061-HorrorGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Unity procjet\-111-1-Thursday-HorrorGame\111-1-109051061-HorrorGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.216 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1217ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (993ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (275ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (501ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (339ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3873 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (149.5 KB). Loaded Objects now: 4389.
+Memory consumption went from 158.2 MB to 158.1 MB.
+Total: 8.433600 ms (FindLiveObjects: 1.447400 ms CreateObjectMapping: 1.088400 ms MarkObjects: 5.438000 ms  DeleteObjects: 0.457300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 256.408329 seconds.
+  path: Assets/Cemetery Kit V1.25/FBX/2x4 Plank.fbx
+  artifactKey: Guid(ff82dfb490b7df74c993649caec51305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cemetery Kit V1.25/FBX/2x4 Plank.fbx using Guid(ff82dfb490b7df74c993649caec51305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22cc7ac057a9c7a45ac252c5f2b7db2a') in 0.141141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Cemetery Kit V1.25/FBX/Church Set 1.fbx
+  artifactKey: Guid(eb0f0f91a3a0ab0479753cca1be15647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cemetery Kit V1.25/FBX/Church Set 1.fbx using Guid(eb0f0f91a3a0ab0479753cca1be15647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ed382b0ec09b74375a34a5415ac9448') in 0.110638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Cemetery Kit V1.25/FBX/Cemetery_Gates_1A(Gr).fbx
+  artifactKey: Guid(4db333cb1209a4f4c85f384713443527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cemetery Kit V1.25/FBX/Cemetery_Gates_1A(Gr).fbx using Guid(4db333cb1209a4f4c85f384713443527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e77f2f861dfc30eff823a8f5e5d31c62') in 0.532130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Cemetery Kit V1.25/FBX/Grave 4.fbx
+  artifactKey: Guid(0825a72b0385d974f8bb4804a8af591d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cemetery Kit V1.25/FBX/Grave 4.fbx using Guid(0825a72b0385d974f8bb4804a8af591d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de44ea399afe66d6fa0043a75fdc777') in 0.027763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Cemetery Kit V1.25/FBX/Grave 6.fbx
+  artifactKey: Guid(47183ef219bd69a438eb6b4d30681238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cemetery Kit V1.25/FBX/Grave 6.fbx using Guid(47183ef219bd69a438eb6b4d30681238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d8a40002f3367a157f2b895888ce677') in 0.028402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Cemetery Kit V1.25/FBX/Grave 3.fbx
+  artifactKey: Guid(65ef9152fa3d64a4bbabef39230ce6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cemetery Kit V1.25/FBX/Grave 3.fbx using Guid(65ef9152fa3d64a4bbabef39230ce6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a27ee73307e8dd0c531080287b432482') in 0.030088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Cemetery Kit V1.25/FBX/Church Doors.fbx
+  artifactKey: Guid(636aa2d9daad19d4d8ab052293fa1a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cemetery Kit V1.25/FBX/Church Doors.fbx using Guid(636aa2d9daad19d4d8ab052293fa1a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '164ec9ff69e37f40f0e36636f94bf05c') in 0.070160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Cemetery Kit V1.25/FBX/Grave Stones Set 1.fbx
+  artifactKey: Guid(982e9a72cb9820b46a94839f9529d9c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cemetery Kit V1.25/FBX/Grave Stones Set 1.fbx using Guid(982e9a72cb9820b46a94839f9529d9c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f42edcfdc650c1573565fb4cb909baf7') in 0.204877 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
