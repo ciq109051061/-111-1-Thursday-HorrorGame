@@ -15,7 +15,7 @@ E:/Unity procjet/-111-1-Thursday-HorrorGame/111-1-109051061-HorrorGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-5887
+4944
 Successfully changed project path to: E:/Unity procjet/-111-1-Thursday-HorrorGame/111-1-109051061-HorrorGame
 E:/Unity procjet/-111-1-Thursday-HorrorGame/111-1-109051061-HorrorGame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ E:/Unity procjet/-111-1-Thursday-HorrorGame/111-1-109051061-HorrorGame
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 112.20 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 101.49 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.6f1 (7da38d85baf6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
@@ -63,79 +63,79 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56820
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56780
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009636 seconds.
+Registered in 0.006486 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 94.29 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 97.85 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.692 seconds
+- Completed reload, in  0.710 seconds
 Domain Reload Profiling:
-	ReloadAssembly (693ms)
-		BeginReloadAssembly (112ms)
+	ReloadAssembly (711ms)
+		BeginReloadAssembly (81ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (477ms)
-			LoadAssemblies (111ms)
+		EndReloadAssembly (513ms)
+			LoadAssemblies (79ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (107ms)
+			SetupTypeCache (114ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (296ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (316ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (51ms)
+				InitializePlatformSupportModulesInManaged (73ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (94ms)
+				RefreshPlugins (98ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (98ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
+				ProcessInitializeOnLoadAttributes (99ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.013237 seconds.
+Registered in 0.004521 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 90.61 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 103.81 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.501 seconds
+- Completed reload, in  1.454 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1502ms)
-		BeginReloadAssembly (271ms)
+	ReloadAssembly (1455ms)
+		BeginReloadAssembly (218ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (130ms)
-		EndReloadAssembly (1114ms)
-			LoadAssemblies (169ms)
+			CreateAndSetChildDomain (132ms)
+		EndReloadAssembly (1099ms)
+			LoadAssemblies (114ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (282ms)
+			SetupTypeCache (280ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (618ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (599ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (32ms)
+				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (91ms)
-				BeforeProcessingInitializeOnLoad (99ms)
-				ProcessInitializeOnLoadAttributes (341ms)
-				ProcessInitializeOnLoadMethodAttributes (49ms)
+				RefreshPlugins (104ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (344ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -143,13 +143,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3879 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 44 unused Assets / (182.6 KB). Loaded Objects now: 4354.
-Memory consumption went from 154.3 MB to 154.1 MB.
-Total: 4.168600 ms (FindLiveObjects: 0.584200 ms CreateObjectMapping: 0.286900 ms MarkObjects: 3.156300 ms  DeleteObjects: 0.140300 ms)
+Unloading 44 unused Assets / (182.5 KB). Loaded Objects now: 4357.
+Memory consumption went from 154.4 MB to 154.2 MB.
+Total: 4.065100 ms (FindLiveObjects: 0.455900 ms CreateObjectMapping: 0.317300 ms MarkObjects: 3.027500 ms  DeleteObjects: 0.263300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -164,65 +164,25 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 93031.002878 seconds.
-  path: Assets/TerrainSampleAssets/ThirdPartyNotices.txt
-  artifactKey: Guid(408677bd09874114a90a745e08fd2112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/ThirdPartyNotices.txt using Guid(408677bd09874114a90a745e08fd2112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56cf1a4da66e5d1772811b423217563f') in 0.058254 seconds 
+  Time since last request: 94852.303070 seconds.
+  path: Assets/True_Horror/True_Scarecrow/Materials
+  artifactKey: Guid(cd09c0a86073fad488a6a37ab88e2b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/True_Horror/True_Scarecrow/Materials using Guid(cd09c0a86073fad488a6a37ab88e2b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b70aa646dce2e70910743f28f6be8966') in 0.012223 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 158.172114 seconds.
-  path: Assets/StaffOfPain/Prefab
-  artifactKey: Guid(5605dc4161074e441a6a4ecffa5928f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StaffOfPain/Prefab using Guid(5605dc4161074e441a6a4ecffa5928f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d0ce42b03ab5d27320be8f7636391d9') in 0.009422 seconds 
+  Time since last request: 17.687391 seconds.
+  path: Assets/True_Horror/True_Scarecrow/Materials/true_scarecrow_diffuse.png
+  artifactKey: Guid(9fdba9c6fd87cdd4db97a0e49f450c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/True_Horror/True_Scarecrow/Materials/true_scarecrow_diffuse.png using Guid(9fdba9c6fd87cdd4db97a0e49f450c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '231a7862ad8d8ad1b031e7c444d95b67') in 0.131425 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.891122 seconds.
-  path: Assets/StaffOfPain/Prefab/StaffOfPain.prefab
-  artifactKey: Guid(88e8f15d4b1faa645821ca8ff73ed8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StaffOfPain/Prefab/StaffOfPain.prefab using Guid(88e8f15d4b1faa645821ca8ff73ed8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b99c4c6ab10d70fa7fc7c5649c94458') in 0.435514 seconds 
+  Time since last request: 1.200626 seconds.
+  path: Assets/True_Horror/True_Scarecrow/Materials/true_scarecrow_metal.png
+  artifactKey: Guid(d6dabf5c8b1b1304bbdac9a113a7284e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/True_Horror/True_Scarecrow/Materials/true_scarecrow_metal.png using Guid(d6dabf5c8b1b1304bbdac9a113a7284e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef47f824c3bdb5d4f28ccb510584db7') in 0.030133 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 91.659169 seconds.
-  path: Assets/預製物/骷髏頭.prefab
-  artifactKey: Guid(274284393cf00ca4bbc6536536ec560a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/預製物/骷髏頭.prefab using Guid(274284393cf00ca4bbc6536536ec560a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abc133801fc6e8e22e18d430c1181a7e') in 0.053364 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 50.711047 seconds.
-  path: Assets/RustyBlackShovel/Prefabs
-  artifactKey: Guid(9ac96511e4276f745a9bffd098884b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RustyBlackShovel/Prefabs using Guid(9ac96511e4276f745a9bffd098884b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '719b4893adf5cdd3815031ec372e5616') in 0.007322 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.085870 seconds.
-  path: Assets/RustyBlackShovel/Prefabs/RustyShovel.prefab
-  artifactKey: Guid(beb87db6153f69442821a348e08035ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RustyBlackShovel/Prefabs/RustyShovel.prefab using Guid(beb87db6153f69442821a348e08035ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09b84687fc714018217b2390b785047d') in 0.073112 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 78.984226 seconds.
-  path: Assets/Horror Assets/Prefabs/DeadBody.prefab
-  artifactKey: Guid(c79eca95e84fc8447adde70f382a3758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Assets/Prefabs/DeadBody.prefab using Guid(c79eca95e84fc8447adde70f382a3758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10ec78a9eb06b0d00b256ce575fe6954') in 0.110005 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Horror Assets/Prefabs/WheelChair.prefab
-  artifactKey: Guid(bfe9900043c59b04ab9e2d58f97d900a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Assets/Prefabs/WheelChair.prefab using Guid(bfe9900043c59b04ab9e2d58f97d900a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8be2b2e492794f1bf0b734c8d1438b8d') in 0.076879 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Horror Assets/Prefabs/Painting.prefab
-  artifactKey: Guid(fe1b63d21d56ace418395e7a2fa4fea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Assets/Prefabs/Painting.prefab using Guid(fe1b63d21d56ace418395e7a2fa4fea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '282cc0b91dda600999874c22f5de3abf') in 0.069542 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/Horror Assets/Prefabs/RockingChair.prefab
-  artifactKey: Guid(69cb242a1fba74349a02ddb98db59c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Assets/Prefabs/RockingChair.prefab using Guid(69cb242a1fba74349a02ddb98db59c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9050ac83a6b26f918a78d5faccbf738e') in 0.066042 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 3.737782 seconds.
+  path: Assets/True_Horror/True_Scarecrow/Materials/true_scarecrow_normals.png
+  artifactKey: Guid(822567dac8d0b914690e139366c9518b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/True_Horror/True_Scarecrow/Materials/true_scarecrow_normals.png using Guid(822567dac8d0b914690e139366c9518b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b9e04d2e5d42daf7c129e1b927301dc') in 0.062107 seconds 
