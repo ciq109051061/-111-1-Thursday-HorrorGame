@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1355ff7435951ff428cf902a152f365e, type: 3}
   m_Name: EventCoffin2
   m_EditorClassIdentifier: 
-  dialogueName: "\u9B3C\u5C0F\u59D0"
+  dialogueName: "\u9B3C\u592A\u592A"
   dialogueContent:
   - "\u9019\u88E1\u662F\u4E0D\u662F\u5F88\u6050\u6016"
   - "\u6211\u4E5F\u89BA\u5F97\uFF0C\u9B3C\u592A\u5C11\u4E86!"

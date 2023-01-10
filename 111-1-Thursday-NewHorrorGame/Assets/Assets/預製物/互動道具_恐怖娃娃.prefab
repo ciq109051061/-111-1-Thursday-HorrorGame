@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 1795598452755729838}
   - component: {fileID: 1795598452754724694}
   - component: {fileID: 1795598452758768752}
+  - component: {fileID: 7960770677545867783}
+  - component: {fileID: 7630591478965347685}
   m_Layer: 0
   m_Name: "\u4E92\u52D5\u9053\u5177_\u6050\u6016\u5A03\u5A03"
   m_TagString: Untagged
@@ -26,7 +28,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1795598452752470404}
-  m_LocalRotation: {x: 0.06119859, y: -0.7044536, z: -0.70445347, w: -0.061198585}
+  m_LocalRotation: {x: 0.061198026, y: -0.7044536, z: -0.7044536, w: -0.061198026}
   m_LocalPosition: {x: 52.61, y: 0.32, z: 47.22}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
@@ -98,3 +100,49 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 56c8253302244df4ca65f2a7ca71b55f, type: 3}
+--- !u!65 &7960770677545867783
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1795598452752470404}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.005841441, y: 0.0042626667, z: 0.0062945057}
+  m_Center: {x: 0.000003832295, y: -0.0013930497, z: 0.0007221711}
+--- !u!114 &7630591478965347685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1795598452752470404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c599def4874fce4c9e057183727f7be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dataDialogue: {fileID: 11400000, guid: 87c2784d3c7ebab4fb4388260b203abe, type: 2}
+  afterDialogueFinish:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7630591478965347685}
+        m_TargetAssemblyTypeName: Blythe.InteractableSystem, Assembly-CSharp
+        m_MethodName: HiddenObject
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  propActive: {fileID: 0}
+  dataDialogueActive: {fileID: 0}
+  afterDialogueFinishActive:
+    m_PersistentCalls:
+      m_Calls: []

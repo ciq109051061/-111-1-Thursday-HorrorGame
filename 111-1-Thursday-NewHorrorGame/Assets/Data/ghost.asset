@@ -12,9 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1355ff7435951ff428cf902a152f365e, type: 3}
   m_Name: ghost
   m_EditorClassIdentifier: 
-  dialogueName: 
+  dialogueName: "\u9B3C"
   dialogueContent:
-  - "\u5E74\u8F15\u4EBA\uFF0C\u60F3\u51FA\u53BB?"
-  - "\u6211\u88AB\u5C01\u5370\u4F4F\u4E86"
-  - "\u5E6B\u52A9\u6211\u89E3\u958B\u5C01\u5370\u5C31\u80FD\u51FA\u53BB"
-  - "\u627E\u5230\u6211\u7684\u68FA\u6750\uFF0C\u7834\u58DE\u4ED6!"
+  - "\u60F3\u51FA\u53BB?"
+  - "\u627E\u5230\u6211\u7684\u68FA\u6750\uFF0C\u6253\u958B!"

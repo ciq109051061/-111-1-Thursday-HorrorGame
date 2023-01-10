@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1355ff7435951ff428cf902a152f365e, type: 3}
   m_Name: OpenningDialogue
   m_EditorClassIdentifier: 
-  dialogueName: "\u73A9\u5BB6"
+  dialogueName: Player
   dialogueContent:
-  - "\u9019\u662F\u5728\u54EA?\u597D\u6050\u6016!"
+  - "\u5893\u5712?\u597D\u6050\u6016!"
   - "\u6211\u60F3\u8981\u96E2\u958B\u9019\u88E1!"
