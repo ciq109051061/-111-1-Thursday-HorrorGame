@@ -1,38 +1,46 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 using UnityEngine.Events;
 
 namespace Blythe
 {
     /// <summary>
-    /// ¤¬°Ê¨t²Î
+    /// äº’å‹•ç³»çµ±
     /// </summary>
     public class InteractableSystem : MonoBehaviour
     {
-        [SerializeField,Header("¹ï¸Ü¸ê®Æ")]
+        #region è³‡æ–™å€åŸŸ
+
+        [SerializeField,Header("å°è©±è³‡æ–™")]
         private DialogueData dataDialogue;
 
-        [SerializeField,Header("¹ï¸Üµ²§ô«áªº¨Æ¥ó")]
+        [SerializeField,Header("å°è©±çµæŸå¾Œçš„äº‹ä»¶")]
         private UnityEvent afterDialogueFinish;
 
-        [SerializeField,Header("±Ò°Ê¹ï¸Üªº¹D¨ã")]
+        [SerializeField,Header("å•Ÿå‹•å°è©±çš„é“å…·")]
         private GameObject propActive;
 
-        [SerializeField,Header("±Ò°Ê«áªº¹ï¸Ü¸ê®Æ")]
+        [SerializeField,Header("å•Ÿå‹•å¾Œçš„å°è©±è³‡æ–™")]
         private DialogueData dataDialogueActive;
 
-        [SerializeField,Header("±Ò°Ê«á¹ï¸Üµ²§ô«áªº¨Æ¥ó")]
+        [SerializeField,Header("å•Ÿå‹•å¾Œå°è©±çµæŸå¾Œçš„äº‹ä»¶")]
         private UnityEvent afterDialogueFinishActive;
 
         private string nameTargt = "PlayerCapsule";
 
         private DialogueSystem dialogueSystem;
 
+        #endregion
+
         private void Awake()
         {
-            dialogueSystem = GameObject.Find("¹ï¸Ü¨t²Î_µe¥¬").GetComponent<DialogueSystem>();
+            dialogueSystem = GameObject.Find("å°è©±ç³»çµ±_ç•«å¸ƒ").GetComponent<DialogueSystem>();
 
         }
 
+        /// <summary>
+        /// å•Ÿå‹•å°è©±è³‡æ–™
+        /// </summary>
+        /// <param name="other"></param>
         private void OnTriggerEnter(Collider other)
         {
             if(other.name.Contains(nameTargt))
@@ -50,6 +58,9 @@ namespace Blythe
             }
         }
 
+        /// <summary>
+        /// éš±è—ç‰©ä»¶
+        /// </summary>
         public void HiddenObject()
         {
             gameObject.SetActive(false);
